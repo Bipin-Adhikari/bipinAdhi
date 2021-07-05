@@ -43,6 +43,13 @@ body .position-relative .col-md-5 {
   }
 }
 
+@media only screen and (min-width: 876px) {
+  .hello {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 @media only screen and (min-width: 576px) {
   .hello {
     display: -webkit-box;
