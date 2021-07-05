@@ -1,0 +1,53 @@
+body .head {
+  text-align: center;
+  background-color: aqua;
+}
+
+body .navbar .container-fluid {
+  background-color: gold;
+}
+
+body .row {
+  margin-top: 25px;
+}
+
+body .blog-footer {
+  background-color: honeydew;
+  margin-top: 25px;
+  text-align: center;
+}
+
+body .position-relative {
+  background-image: url(/p6.jpg);
+}
+
+body .position-relative .col-md-5 {
+  font-size: 60px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 990px) {
+  .hello {
+    display: block;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .hello {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .hello {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=index.css.map */
